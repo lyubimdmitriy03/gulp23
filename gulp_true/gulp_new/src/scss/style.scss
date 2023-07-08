@@ -1,0 +1,31 @@
+@import "fonts";
+@import "reset";
+@import "variables";
+@import "keyframes";
+@import "header";
+
+/*style*/
+body {
+  font-family: OpenSans-Regular, sans-serif;
+  background-color: $darkblue;
+  font-size: $fs__16;
+  height: 100%;
+  min-width: 315px;
+  // background: $softgray;
+}
+.wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 1 auto;
+}
+
+// continer
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+  z-index: 3;
+}
