@@ -1,0 +1,22 @@
+@import "fonts";
+
+body{
+  background: lavender;
+  font-family: PlayfairDisplay;
+  font-size: 50px;
+  footer{
+    background: url("../img/butterfly.jpg");
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  footer{background: blueviolet;}
+}
+
+@media (max-width: 768px) {
+  body{background: green;}
+}
