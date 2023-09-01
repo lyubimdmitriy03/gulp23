@@ -1,0 +1,67 @@
+/* reset*/
+img{
+   vertical-align: top;
+   max-width: 100%;
+   height: auto;
+}
+
+a{
+   color: #000;
+   text-decoration: underline;
+   &:hover{
+      text-decoration: none;
+   }
+}
+
+form, fieldset{
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], textarea{
+   font: 400 16px/1.2 Arial, Verdana, sans-serif;
+   border: 1px solid #000;
+   box-shadow: none;
+   border-radius: 0;
+   display: block;
+   width: 100%;
+   height: 40px;
+   line-height: 100%;
+   padding: 0 10px;
+   color: #000;
+   box-sizing: border-box;
+}
+
+input::placeholder{
+   color: #555555;
+}
+
+input:focus::placeholder{
+   opacity: 0.5;
+}
+
+textarea{
+   height: 100px;
+   max-width: 100%;
+   padding: 5px 10px;
+   line-height: 1.2;
+}
+
+
+input[type="submit"]{
+   font: 400 16px/1.2 Arial, Verdana, sans-serif;
+   border: 1px solid #000;
+   box-shadow: none;
+   border-radius: 0;
+   display: block;
+   width: 100%;
+   height: 40px;
+   padding: 0 10px;
+   vertical-align: middle;
+   color: #000;
+   background: #555555;
+   -webkit-appearance: none;
+   appearance: none;
+   box-sizing: border-box;
+}
