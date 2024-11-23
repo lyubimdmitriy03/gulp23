@@ -1,0 +1,45 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 850ms cubic-bezier(0.18, 0.8, 0.18, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: -10;
+  overflow: auto;
+
+  &.open{
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .container{
+    position: relative;
+  }
+}
+
+
+.popup_close {
+  position: absolute;
+  top: -38px;
+  inset-inline: auto 55px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  padding: 6px;
+  background: black;
+  cursor: pointer;
+  z-index: 5;
+  text-indent: -999px;
+  font-size: 0;
+}

@@ -1,0 +1,18 @@
+.products{
+  background: lightblue;
+}
+
+.products-wrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin: 0 auto;
+  padding: 20px 0 30px;
+  background: lightcoral;
+}
+
+.products-item{
+background: lightgoldenrodyellow;
+  width: calc(33.33% - 16px);
+}
